@@ -28,6 +28,12 @@ h3 {
     color: #FFFFFF;
 }
 
+#cta
+{
+    background-color: #FF4C68;
+    color: #FFFFFF;
+}
+
 /* Navigation Bar */
 .navbar {
     padding: 0 0 4.5rem 0;
@@ -132,4 +138,19 @@ h3 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 1000px) {
+    .title-image {
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+        right: 30%;
+    }
+    
+    #title {
+        text-align: center;
+    }
+    
+    
 }
